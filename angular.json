@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "miniStock"
+  "defaultProject": "miniStock",
+  "cli": {
+    "analytics": "8175c24d-970e-434a-a303-2169733477e8"
+  }
 }

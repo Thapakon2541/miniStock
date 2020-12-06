@@ -1,2 +1,16 @@
 body{background: #ffffff;}
-table{width: 100%;}
+table{width: 50%;}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+thead th  {
+    background-color: #888;
+    padding: 1px;
+}
+tbody tr td{
+    padding: 5px;
+    border-bottom: #ccc 1px solid;
+}

@@ -16,13 +16,17 @@
           import {MatIconModule} from '@angular/material/icon'
           import { FormsModule } from '@angular/forms';
           import { DashboardComponent } from './dashboard/dashboard.component';
+          
+          import {MatDialogModule} from '@angular/material/dialog';
+import { DialogProductComponent } from './dialog-product/dialog-product.component';
 
 
           @NgModule({
             declarations: [
               AppComponent,
               LoginRegistorComponent,
-              DashboardComponent
+              DashboardComponent,
+              DialogProductComponent
             ],
             imports: [
               BrowserModule,
@@ -36,9 +40,10 @@
               MatCheckboxModule,
               MatTableModule,
               MatIconModule,
+              MatDialogModule,
               HttpClientModule
             ],
             providers: [],
-            bootstrap: [AppComponent]
+            bootstrap: [AppComponent],
           })
           export class AppModule { }
